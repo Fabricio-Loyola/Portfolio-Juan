@@ -21,7 +21,7 @@
 
     <section class="home" id="home">
         <div class="home-img">
-            <img src="./img/Untitled-1 (1) (1).png" alt="">
+            <img src="./img/1-10.png" alt="">
         </div>
         <div class="home-content">
             <h1>Me llamo <span>Juan</span></h1>
@@ -34,7 +34,7 @@
                 <a href="#"><i class='bx bxl-instagram-alt'></i></a>
                 <a href="#"><i class='bx bxl-whatsapp'></i></a>
             </div>
-            <a href="#" class="btn">Hire me</a>
+            <a href="#contact" class="btn">CONTACTAME</a>
         </div>
     </section>
 
@@ -47,7 +47,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente aspernatur, expedita perferendis explicabo sunt culpa vel distinctio facere dolorum. Ipsam laborum labore qui quidem minima tempore laboriosam excepturi ullam.</p>
         </div>
         <div class="about-img">
-            <img src="./img/Untitled-1 (1) (1).png">
+            <img src="./img/1-10.png">
         </div>
     </section>
 
@@ -92,18 +92,20 @@
 
         <h2 class="heading">Contacta <span>Conmigo</span></h2>
 
-        <form action="#">
+        <form id="form" action="https://formspree.io/f/xanwypqk" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Nombre Completo">
-                <input type="email" placeholder="Ejemplo@gmail.com">
+                <input type="text" placeholder="Nombre Completo" name="name">
+                <input type="email" placeholder="Ejemplo@gmail.com" name="email">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Celular">
-                <input type="text" placeholder="Asunto">
+                <input type="number" placeholder="Celular" name="phone">
+                <input type="text" placeholder="Asunto" name="subject">
             </div>
 
-            <textarea name="" id="" cols="30" rows="10" placeholder="Deja tu mensaje..."></textarea>
-            <input type="submit" value="Enviar Mensaje" class="btn">
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="Deja tu mensaje..."></textarea>
+            <input type="submit" value="Enviar Mensaje" class="btn" name="submit">
+
+        
         </form>
     </section>
 
